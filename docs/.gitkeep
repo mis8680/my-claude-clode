@@ -1,0 +1,7 @@
+# This directory stores project documentation
+
+Use the documentation skills and commands to generate:
+- ADRs in docs/decisions/
+- Research notes in docs/research/
+- Task plans in docs/tasks/
+- PRDs in docs/prd/
