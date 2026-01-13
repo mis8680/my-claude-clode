@@ -1,23 +1,30 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "my-claude-code",
-  "version": "1.0.0",
   "description": "Personal Claude Code configurations with custom commands, skills, and agents for enhanced development workflows",
-  "author": "mis8680",
-  "repository": "https://github.com/mis8680/my-claude-code",
-  "homepage": "https://github.com/mis8680/my-claude-code",
-  "license": "MIT",
-  "keywords": [
-    "claude-code",
-    "commands",
-    "skills",
-    "agents",
-    "development",
-    "workflow"
-  ],
-  "commands": ".claude/commands",
-  "skills": ".claude/skills",
-  "agents": ".claude/agents",
-  "requires": {
-    "claude-code": ">=1.0.0"
-  }
+  "owner": {
+    "name": "mis8680",
+    "email": "your-email@example.com"
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "license": "MIT",
+    "repository": "https://github.com/mis8680/my-claude-code",
+    "homepage": "https://github.com/mis8680/my-claude-code"
+  },
+  "plugins": [
+    {
+      "name": "my-claude-code-tools",
+      "description": "Custom commands, skills, and agents for enhanced development workflows",
+      "source": "./",
+      "version": "1.0.0",
+      "author": {
+        "name": "mis8680"
+      },
+      "commands": ".claude/commands",
+      "skills": ".claude/skills",
+      "agents": ".claude/agents",
+      "category": "productivity"
+    }
+  ]
 }
