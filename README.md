@@ -4,6 +4,11 @@ Personal repository for custom Claude Code configurations including slash comman
 
 ## Contents
 
+### Configuration Files
+
+- `CLAUDE.md` - Project-specific instructions for this repository
+- `CLAUDE.global.md` - Synced copy of global standards from `~/.claude/CLAUDE.md`
+
 ### Custom Slash Commands
 
 Located in `.claude/commands/`:
@@ -40,6 +45,17 @@ Automatically invoked when creating documentation. Generates:
 - Task planning documents
 - Session summaries
 
+#### Subagent Creator Skill
+Helps create specialized Claude Code custom subagents with system prompts and tool configurations. Use when creating new agents or specialized assistants.
+
+#### Skill Creator Skill
+Guides creation of effective skills that extend Claude's capabilities with specialized knowledge, workflows, or tool integrations.
+
+### Custom Agents
+
+Located in `.claude/agents/`:
+- Custom agent configurations for specialized tasks
+
 ## Usage
 
 1. Clone this repository
@@ -56,7 +72,10 @@ docs/
 ├── prd/              # Product requirements
 ├── decisions/        # Architecture Decision Records (ADR)
 ├── research/         # Investigations and spikes
-└── tasks/            # Planning and progress logs
+├── tasks/            # Planning and progress logs
+├── hooks.md          # Reference guide for Claude Code hooks
+├── slash-commands.md # Reference guide for slash commands
+└── sub-agent.md      # Reference guide for subagents
 ```
 
 ## Adding New Commands

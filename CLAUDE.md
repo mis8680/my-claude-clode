@@ -2,6 +2,16 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Global Standards
+
+**All global coding standards apply to this project.**
+
+For complete global standards including code quality, git conventions, documentation, testing, Serena usage, and Context7 integration, see:
+- `CLAUDE.global.md` (synced copy of global standards)
+- Original: `/Users/inusmun/.claude/CLAUDE.md`
+
+The sections below are project-specific additions.
+
 ## Repository Purpose
 
 This is a personal repository for custom Claude Code configurations including:
