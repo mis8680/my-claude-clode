@@ -1,0 +1,23 @@
+{
+  "name": "my-claude-code",
+  "version": "1.0.0",
+  "description": "Personal Claude Code configurations with custom commands, skills, and agents for enhanced development workflows",
+  "author": "mis8680",
+  "repository": "https://github.com/mis8680/my-claude-code",
+  "homepage": "https://github.com/mis8680/my-claude-code",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "commands",
+    "skills",
+    "agents",
+    "development",
+    "workflow"
+  ],
+  "commands": ".claude/commands",
+  "skills": ".claude/skills",
+  "agents": ".claude/agents",
+  "requires": {
+    "claude-code": ">=1.0.0"
+  }
+}
